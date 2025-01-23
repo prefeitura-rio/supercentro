@@ -210,7 +210,11 @@ export function QuadroUm(props) {
   const { showArrow, sectionRef } = useScrollArrow();
 
   return (
-    <styles.ChapterGenericDiv2 ref={sectionRef} id={props.id}>
+    <styles.ChapterGenericDiv2
+      ref={sectionRef}
+      id={props.id}
+      style={{ height: "6200vh" }}
+    >
       {showArrow && (
         <div
           className="scroll-arrow-container"
