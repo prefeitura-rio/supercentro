@@ -1,16 +1,8 @@
-// Mandatory
-import { useEffect, useState, useRef } from "react";
-
-// Chapters
+import { useEffect, useState } from "react";
 import * as chapterDiv from "./components/chapters";
-
-// Scroll and animation  stuff
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-//style css
 import "./style.css";
-import { isMobile } from "react-device-detect";
 import { LoadingSuperCentro } from "./loading";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -19,7 +11,7 @@ export default function SuperCentro() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const imageUrls = [];
 
-  for (let i = 1; i <= 1000; i++) {
+  for (let i = 1; i <= 2833; i++) {
     imageUrls.push(
       `https://storage.googleapis.com/rj-escritorio-dev-public/dataviz/supercentro/frames/${i}.jpg`
     );
@@ -32,6 +24,7 @@ export default function SuperCentro() {
           const img = new Image();
           img.src = url;
           img.onload = resolve;
+          img.onerror = resolve; // Resolve even if there's an error
         });
       });
       await Promise.all(promises);
@@ -73,24 +66,20 @@ export default function SuperCentro() {
   }
 
   return (
-    <>
-      <div className="containerr" style={{ backgroundColor: "#dce0ea" }}>
-        <chapterDiv.Capa id={"capa"} />
-        {/* ******************************** Video Scrolling ********************************  */}
-
-        <div className="flex flex-col h-[6200vh] w-full items-center lg:items-start lg:justify-center">
-          <img
-            id={"quadro_video_um"}
-            src={
-              "https://storage.googleapis.com/rj-escritorio-dev-public/dataviz/supercentro/frames/1.jpg"
-            }
-            className="sticky top-[50%] -translate-y-[50%] w-screen max-w-[600px] h-auto lg:min-h-screen lg:h-screen lg:w-auto lg:max-h-screen lg:max-w-none lg:ml-10 xl:ml-20 3x:ml-40"
-          ></img>
-          <chapterDiv.QuadroUm id={"quadro"} />
-        </div>
-        <chapterDiv.ParteUm id={"parteum"} />
-        <chapterDiv.Creditos id={"creditos"} />
+    <div className="containerr" style={{ backgroundColor: "#dce0ea" }}>
+      <chapterDiv.Capa id={"capa"} />
+      <div className="flex flex-col h-[6200vh] w-full items-center lg:items-start lg:justify-center">
+        <img
+          id={"quadro_video_um"}
+          src={
+            "https://storage.googleapis.com/rj-escritorio-dev-public/dataviz/supercentro/frames/1.jpg"
+          }
+          className="sticky mt-[10vw] top-[50%] -translate-y-[50%] w-screen max-w-[600px] h-auto lg:min-h-screen lg:h-screen lg:w-auto lg:max-h-screen lg:max-w-none lg:ml-10 xl:ml-20 3x:ml-40"
+        ></img>
+        <chapterDiv.QuadroUm id={"quadro"} />
       </div>
-    </>
+      <chapterDiv.ParteUm id={"parteum"} />
+      <chapterDiv.Creditos id={"creditos"} />
+    </div>
   );
 }
