@@ -74,7 +74,7 @@ export default function SuperCentro() {
           src={
             "https://storage.googleapis.com/rj-escritorio-dev-public/dataviz/supercentro/frames/1.jpg"
           }
-          className="sticky mt-[50vw] lg:-mt-[50vw] top-[50%] -translate-y-[50%] w-screen max-w-[600px] h-auto lg:min-h-screen lg:h-screen lg:w-auto lg:max-h-screen lg:max-w-none lg:ml-10 xl:ml-20 3x:ml-40"
+          className="sticky mt-[50vw] lg:-mt-[10vw] top-[50%] -translate-y-[50%] w-screen max-w-[600px] h-auto lg:min-h-screen lg:h-screen lg:w-auto lg:max-h-screen lg:max-w-none lg:ml-10 xl:ml-20 3x:ml-40"
         ></img>
         <chapterDiv.QuadroUm id={"quadro"} />
       </div>
