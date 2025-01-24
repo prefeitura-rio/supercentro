@@ -213,7 +213,7 @@ export function QuadroUm(props) {
     <styles.ChapterGenericDiv2
       ref={sectionRef}
       id={props.id}
-      style={{ height: "6200vh" }}
+      style={{ height: "6300vh" }}
     >
       {showArrow && (
         <div
@@ -329,7 +329,10 @@ export function QuadroUm(props) {
         </styles.ContainerCard3>
       </styles.ChapterGenericRight>
       <styles.ChapterGenericRight>
-        <styles.ContainerCard3 id={"quadro_um_card6"} className=" top-[1500vh]">
+        <styles.ContainerCard3
+          id={"quadro_um_card6"}
+          className="top-[1600vh] md:top-[1500vh]"
+        >
           <styles.TextCard3>
             Se, por um lado, essa expansão melhorou o acesso inicial ao sistema,
             por outro, evidenciou a necessidade de reorganização e ampliação dos
@@ -339,7 +342,10 @@ export function QuadroUm(props) {
         </styles.ContainerCard3>
       </styles.ChapterGenericRight>
       <styles.ChapterGenericRight>
-        <styles.ContainerCard3 id={"quadro_um_card7"} className=" top-[1600vh]">
+        <styles.ContainerCard3
+          id={"quadro_um_card7"}
+          className=" top-[1700vh] md:top-[1600vh]"
+        >
           <styles.TextCard3>
             O complexo conta com mais de 150 consultórios, além de salas de
             exame e equipamentos de última geração, 582 especialistas e
@@ -349,7 +355,10 @@ export function QuadroUm(props) {
         </styles.ContainerCard3>
       </styles.ChapterGenericRight>
       <styles.ChapterGenericRight>
-        <styles.ContainerCard3 id={"quadro_um_card7"} className=" top-[1700vh]">
+        <styles.ContainerCard3
+          id={"quadro_um_card7"}
+          className=" top-[1800vh] md:top-[1700vh]"
+        >
           <styles.TextCard3>
             Assim, une especialidades diversas em um único lugar, concentra
             atendimentos e procedimentos e otimiza a logística médica,
@@ -358,7 +367,10 @@ export function QuadroUm(props) {
         </styles.ContainerCard3>
       </styles.ChapterGenericRight>
       <styles.ChapterGenericRight>
-        <styles.ContainerCard3 id={"quadro_um_card7"} className=" top-[1800vh]">
+        <styles.ContainerCard3
+          id={"quadro_um_card7"}
+          className=" top-[1900vh] md:top-[1800vh]"
+        >
           <styles.TextCard3>
             <b>
               A partir da inauguração, a fila do Sisreg caiu abaixo da metade em
@@ -369,7 +381,10 @@ export function QuadroUm(props) {
         </styles.ContainerCard3>
       </styles.ChapterGenericRight>
       <styles.ChapterGenericRight>
-        <styles.ContainerCard3 id={"quadro_um_card8"} className=" top-[1900vh]">
+        <styles.ContainerCard3
+          id={"quadro_um_card8"}
+          className="top-[2000vh] md:top-[1900vh]"
+        >
           <styles.TextCard3>
             Em muitos casos, a fila foi “equalizada”, ou seja, foi reduzida
             momentaneamente de forma a atender todas as pessoas que esperavam
@@ -378,7 +393,10 @@ export function QuadroUm(props) {
         </styles.ContainerCard3>
       </styles.ChapterGenericRight>
       <styles.ChapterGenericRight>
-        <styles.ContainerCard3 id={"quadro_um_card9"} className=" top-[2050vh]">
+        <styles.ContainerCard3
+          id={"quadro_um_card9"}
+          className=" top-[2150vh] md:top-[2050vh]"
+        >
           <styles.TextCard3>
             Vejamos como funciona: A estrutura do Super Centro se divide em 3
             unidades:
@@ -388,7 +406,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card9b"}
-          className=" top-[2300vh]"
+          className=" top-[2500vh] md:top-[2350vh]"
         >
           <styles.TextCard3>
             O <b>Centro Carioca de Especialidades (CCE)</b> oferece atendimento
@@ -399,7 +417,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card10"}
-          className=" top-[2550vh]"
+          className="top-[2700vh] md:top-[2600vh]"
         >
           <styles.TextCard3>
             O <b>Centro Carioca de Diagnóstico e Tratamento por Imagem</b>{" "}
@@ -411,7 +429,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card11"}
-          className=" top-[2750vh]"
+          className="top-[2900vh] md:top-[2800vh]"
         >
           <styles.TextCard3>
             No <b>Hospital do Olho</b>, além de consultas e exames, também há
@@ -423,7 +441,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card12"}
-          className=" top-[2950vh]"
+          className="top-[3100vh] md:top-[3000vh]"
         >
           <styles.TextCard3>
             Milhares de pessoas são atendidas por cada uma dessas unidades.{" "}
@@ -433,7 +451,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card13"}
-          className=" top-[3100vh]"
+          className="top-[3350vh] md:top-[3150vh]"
         >
           <styles.TextCard3>
             Como foi o caso de Mauro, 53 anos, morador da Tijuca.{" "}
@@ -443,7 +461,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card14"}
-          className=" top-[3250vh]"
+          className=" top-[3450vh] md:top-[3300vh]"
         >
           <styles.TextCard3>
             Ele foi encaminhado por uma Clínica da Família para consulta com um
@@ -454,7 +472,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card15"}
-          className=" top-[3500vh]"
+          className=" top-[3700vh] md:top-[3600vh]"
         >
           <styles.TextCard3>
             O Centro Carioca de Especialidades (CCE) também oferece atendimento
@@ -466,7 +484,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card16"}
-          className=" top-[3850vh]"
+          className="top-[4100vh] md:top-[3900vh]"
         >
           <styles.TextCard3>
             Além dessas especialidades, o CCE também oferece Cirurgia Vascular;
@@ -482,7 +500,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card18"}
-          className=" top-[3950vh]"
+          className="top-[4250vh] md:top-[4000vh]"
         >
           <styles.TextCard3>
             O médico solicitou uma tomografia e depois de exames, Mauro foi
@@ -493,7 +511,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card19"}
-          className=" top-[4100vh]"
+          className="top-[4250vh] md:top-[4150vh]"
         >
           <styles.TextCard3>
             Ele foi encaminhado ao INCA (Instituto Nacional do Câncer) para
@@ -506,7 +524,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card20"}
-          className=" top-[4200vh]"
+          className="top-[4450vh] md:top-[4250vh]"
         >
           <styles.TextCard3>
             O equipamento de PET Scan do CCD é o único da rede municipal de
@@ -517,7 +535,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card21"}
-          className=" top-[4300vh]"
+          className="top-[4600vh] md:top-[4350vh]"
         >
           <styles.TextCard3>
             O CCD conta ainda com diversos outros equipamentos modernos para
@@ -528,7 +546,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card22"}
-          className=" top-[4700vh]"
+          className="top-[5200vh] md:top-[4750vh]"
         >
           <styles.TextCard3>
             O CCD oferece também:<br></br>
@@ -541,7 +559,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card23"}
-          className=" top-[4850vh]"
+          className="top-[5350vh] md:top-[5100vh]"
         >
           <styles.TextCard3>
             Maria, 55 anos, de Irajá, tem catarata.
@@ -551,7 +569,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card24"}
-          className=" top-[4950vh]"
+          className="top-[5500vh] md:top-[5200vh]"
         >
           <styles.TextCard3>
             Ela veio ao Centro Carioca do Olho (Hospital do Olho).
@@ -561,7 +579,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card26"}
-          className=" top-[5050vh]"
+          className="top-[5600vh] md:top-[5300vh]"
         >
           <styles.TextCard3>
             Aqui, ela se consulta com um oftalmologista, faz os exames, a
@@ -574,7 +592,7 @@ export function QuadroUm(props) {
       <styles.ChapterGenericRight>
         <styles.ContainerCard3
           id={"quadro_um_card26"}
-          className=" top-[5650vh]"
+          className="top-[6200vh] md:top-[5800vh]"
         >
           <styles.TextCard3>
             O Hospital do Olho também oferece: Oftalmologia - Pediatria;

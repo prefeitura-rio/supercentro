@@ -68,13 +68,13 @@ export default function SuperCentro() {
   return (
     <div className="containerr" style={{ backgroundColor: "#dce0ea" }}>
       <chapterDiv.Capa id={"capa"} />
-      <div className="flex flex-col h-[6200vh] w-full items-center lg:items-start lg:justify-center">
+      <div className="flex flex-col h-[6600vh] w-full items-center lg:items-start lg:justify-center">
         <img
           id={"quadro_video_um"}
           src={
             "https://storage.googleapis.com/rj-escritorio-dev-public/dataviz/supercentro/frames/1.jpg"
           }
-          className="sticky mt-[10vw] top-[50%] -translate-y-[50%] w-screen max-w-[600px] h-auto lg:min-h-screen lg:h-screen lg:w-auto lg:max-h-screen lg:max-w-none lg:ml-10 xl:ml-20 3x:ml-40"
+          className="sticky mt-[50vw] lg:-mt-[50vw] top-[50%] -translate-y-[50%] w-screen max-w-[600px] h-auto lg:min-h-screen lg:h-screen lg:w-auto lg:max-h-screen lg:max-w-none lg:ml-10 xl:ml-20 3x:ml-40"
         ></img>
         <chapterDiv.QuadroUm id={"quadro"} />
       </div>
