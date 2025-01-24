@@ -68,7 +68,7 @@ export default function SuperCentro() {
   return (
     <div className="containerr" style={{ backgroundColor: "#dce0ea" }}>
       <chapterDiv.Capa id={"capa"} />
-      <div className="flex flex-col h-[6600vh] w-full items-center lg:items-start lg:justify-center">
+      <div className="flex flex-col h-[6450vh] w-full items-center lg:items-start lg:justify-center">
         <img
           id={"quadro_video_um"}
           src={
